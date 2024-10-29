@@ -1,0 +1,33 @@
+<!-- views/admin.ejs -->
+<h2>Manage Job Postings</h2>
+
+<div class="job-cards">
+    <% jobPostings.forEach((job, index) => { %>
+        <div class="job-card">
+            <img src="<%= job.logo %>" alt="<%= job.title %> Logo" class="company-logo" />
+            <h3><%= job.title %></h3>
+            <p><%= job.description %></p>
+            <p>Category: <%= job.category %></p>
+            <p>Experience: <%= job.experience %></p>
+            <a href="<%= job.applicationLink %>" target="_blank" class="apply-button">Apply</a>
+            <form action="/delete-job/<%= index %>" method="POST" style="display:inline;">
+                <button type="submit" class="delete-button">Delete</button>
+            </form>
+        </div>
+    <% }); %>
+</div>
+
+<style>
+    .delete-button {
+        background-color: #dc3545; /* Bootstrap's danger color */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+
+    .delete-button:hover {
+        background-color: #c82333; /* Darken on hover */
+    }
+</style>

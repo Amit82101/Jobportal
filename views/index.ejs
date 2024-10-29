@@ -1,0 +1,56 @@
+<!-- views/index.ejs -->
+<h2>Add Job Posting (Admin Only)</h2>
+<form action="/add-job" method="POST">
+    <input type="text" name="title" placeholder="Job Title" required>
+    <textarea name="description" placeholder="Job Description" required></textarea>
+    <button type="submit">Add Job</button>
+</form>
+
+<h2>Available Job Postings</h2>
+<div class="job-cards">
+    <% jobPostings.forEach(job => { %>
+        <div class="job-card">
+            <h3><%= job.title %></h3>
+            <p><%= job.description %></p>
+            <button class="apply-button">Apply</button>
+        </div>
+    <% }); %>
+</div>
+
+<style>
+    .job-cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px; /* Space between cards */
+        margin-top: 20px;
+    }
+
+    .job-card {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 15px;
+        width: 300px; /* Fixed width for cards */
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+    }
+
+    .job-card:hover {
+        transform: scale(1.05); /* Slightly enlarge card on hover */
+    }
+
+    .apply-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 15px;
+        cursor: pointer;
+    }
+
+    .apply-button:hover {
+        background-color: #0056b3; /* Darken button on hover */
+    }
+
+
+
+</style>

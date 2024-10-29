@@ -1,0 +1,21 @@
+<!-- views/apply.ejs -->
+<h2>Apply for <%= job.title %></h2>
+<p><%= job.description %></p>
+
+<form action="/submit-application" method="POST">
+    <input type="hidden" name="jobTitle" value="<%= job.title %>">
+    <input type="hidden" name="jobDescription" value="<%= job.description %>">
+    <div>
+        <label for="applicantName">Your Name:</label>
+        <input type="text" name="applicantName" required>
+    </div>
+    <div>
+        <label for="applicantEmail">Your Email:</label>
+        <input type="email" name="applicantEmail" required>
+    </div>
+    <button type="submit">Submit Application</button>
+</form>
+
+<style>
+    /* Add your CSS styles here */
+</style>

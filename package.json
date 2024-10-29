@@ -1,0 +1,20 @@
+{
+  "name": "jobposting",
+  "version": "1.0.0",
+  "description": "A simple job posting app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-ejs-layouts": "^2.5.1",
+    "firebase": "^11.0.1",
+    "firebase-admin": "^12.7.0"
+  },
+  "keywords": []
+}

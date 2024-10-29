@@ -1,0 +1,195 @@
+/* public/styles.css */
+
+
+body {
+    font-family: Arial, sans-serif; /* Use a clean font */
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between logo and nav */
+    align-items: center; /* Center items vertically */
+    padding: 10px 20px; /* Padding for the header */
+    background-color: #fff; /* Background color for the header */
+    border-bottom: 1px solid #ccc; /* Optional: bottom border for header */
+    
+}
+
+.nav-links {
+    /* Additional styling for nav links if needed */
+}
+
+.nav-links ul {
+    display: flex; /* Align the list items horizontally */
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.nav-links li {
+    margin-left: 20px; /* Space between navigation items */
+    position: relative; /* Position for absolute positioning of the hover effect */
+}
+
+.nav-links li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Default link color */
+    padding: 8px 12px; /* Padding for better clickable area */
+    transition: color 0.3s, background-color 0.3s; /* Smooth transition for color and background */
+}
+
+.nav-links li a:hover {
+    color: #fff; /* Change text color on hover */
+    background-color: #007bff; /* Background color for the hover effect */
+    border-radius: 4px; /* Slight rounding of corners */
+}
+
+.header-divider {
+    margin: 0; /* Remove margin from horizontal line */
+    border: none; /* Remove default border */
+    height: 1px; /* Height of the line */
+    background-color: #a19a9a; /* Color of the line */
+}
+
+//newheader
+
+
+
+.header-container {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between logo and navigation */
+    align-items: center; /* Center items vertically */
+    padding: 10px 20px; /* Padding for the header */
+}
+
+.logo h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 24px; /* Font size for the logo */
+}
+
+.logo a {
+    text-decoration: none; /* Remove underline from the link */
+    color: #007bff; /* Link color */
+}
+
+.nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Flexbox for navigation items */
+}
+
+.nav li {
+    margin-left: 20px; /* Space between navigation items */
+}
+
+.nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Default link color */
+    padding: 5px 10px; /* Padding around links */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.nav a:hover {
+    background-color: rgba(0, 123, 255, 0.1); /* Light blue background on hover */
+    border-radius: 5px; /* Rounded corners for hover effect */
+}
+.nav-links ul li a.active {
+    color: #007bff; /* Blue text for the active page */
+    border-bottom: 2px solid #007bff; /* Blue underline for the active page */
+}
+
+//footer css
+
+.footer-divider {
+    border: none; /* Remove default border */
+    height: 1px; /* Thickness of the line */
+    background-color: rgb(145, 137, 137); /* Color of the line */
+    margin: 0;/* Space above and below the line */
+    width: 100%; /* Full width line */
+}
+
+
+.footer {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 40px 40px 40px 60px; /* Footer padding */
+    color: #0c0c0c; /* Dark text color */
+    border-top: 1px solid rgb(156, 154, 154); /* Black top border */
+    margin-top: 30px;
+    padding:  0; /* Adjust top and bottom padding of footer */
+}
+
+
+.footer-container {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between sections */
+    flex-wrap: wrap; /* Wrap sections on smaller screens */
+    padding-left: 60px; /* Add left padding for the footer content */
+    
+}
+
+.footer-section {
+    flex: 1; /* Make sections flexible */
+    min-width: 250px; /* Minimum width for sections */
+    margin-right: 20px; /* Space between sections */
+    margin-left: 20px; /* Add left margin to sections */
+}
+
+.footer-section h4 {
+    margin-bottom: 10px; /* Space below section headers */
+    font-size: 18px; /* Font size for headers */
+    color: #007bff; /* Link color */
+}
+
+.footer-section p {
+    margin: 5px 0; /* Margin for paragraph text */
+}
+
+.footer-section ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.footer-section ul li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+.footer-section ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Link color */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.footer-section ul li a:hover {
+    color: #0056b3; /* Darker color on hover */
+}button {
+    background-color: #4285F4; /* Google Blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px; /* Optional margin for spacing */
+}
+
+button:hover {
+    background-color: #357AE8; /* Darker blue on hover */
+}
+
+
+.footer-bottom {
+    text-align: center; /* Center the bottom text */
+    margin-top: 0; /* Space above bottom text */
+    font-size: 14px; /* Font size for bottom text */
+    color: #666; /* Light gray color for bottom text */
+    padding-left: 40px; /* Extra padding for the left side of bottom text */
+    border-top: 1px solid #ccc; /* Horizontal line at the footer bottom */
+    padding-top: 20px; /* Add space between the line and bottom text */
+    padding:  0; /* Add slight padding for spacing */
+    padding-bottom: 0;
+}
+
+
