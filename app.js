@@ -44,7 +44,7 @@ let jobPostings = [
         applicationLink: "https://careers.qualcomm.com/careers",
         category: "Intern",
         experience: "Fresher",
-        logo: "https://static.vscdn.net/images/careers/demo/qualcomm/1686210880::Qualcomm-Logo.png"
+        logo: "https://jobs.careers.microsoft.com/us/en/job/1779876/Technical-Program-Manager-Internship-Opportunities"
 
     },
    
