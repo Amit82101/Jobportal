@@ -30,6 +30,44 @@ app.set('views', path.join(__dirname, 'views'));
 // Temporary in-memory storage for job postings
 let jobPostings = [
     {
+        title: "Google",
+        description: "Software Engineer",
+        applicationLink: "https://valorem.keka.com/careers/jobdetails/69890https://www.google.com/about/careers/applications/jobs/results/123826017989993158-software-engineer-university-graduate-2025",
+        category: "Full-time",
+        experience: "1 years",
+        logo: "https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png"
+
+    },
+    
+    {
+        title: "Qualcomm",
+        description: "Associate Software Engineer",
+        applicationLink: "https://careers.qualcomm.com/careers",
+        category: "Full-time",
+        experience: "1 years",
+        logo: "https://static.vscdn.net/images/careers/demo/qualcomm/1686210880::Qualcomm-Logo.png"
+
+    },
+    {
+        title: "Amazon",
+        description: "SDE Intern",
+        applicationLink: "https://www.amazon.jobs/en/jobs/2750545/sde-i-intern-6m-july-dec",
+        category: "Intern",
+        experience: "Fresher",
+        logo: "https://w7.pngwing.com/pngs/732/34/png-transparent-logo-amazon-com-brand-flipkart-others-text-orange-logo.png"
+
+    },
+    
+    {
+        title: "SAP Labs",
+        description: "AI Developer Associate",
+        applicationLink: "https://jobs.sap.com/job/Bangalore-AI-Developer-Associate-560066/1111797101/",
+        category: "Full-time",
+        experience: "1 years",
+        logo: "data:image/jpeg;base64,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"
+
+    },
+    {
         title: "Citi Group",
         description: "Apps Programmer analyst",
         applicationLink: "https://jobs.citi.com/job/-/-/287/71615296816",
@@ -86,25 +124,9 @@ let jobPostings = [
         logo: "https://valorem.keka.com/ats/documents/6530c1b8-e9b5-4e70-97f7-21b5f6d9b19e/orglogo/03191a9b2e064b599b23b3b5d7a17189.png"
     },
 
-    {
-        title: "Google",
-        description: "Software Engineer",
-        applicationLink: "https://valorem.keka.com/careers/jobdetails/69890https://www.google.com/about/careers/applications/jobs/results/123826017989993158-software-engineer-university-graduate-2025",
-        category: "Full-time",
-        experience: "1 years",
-        logo: "https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png"
+  
 
-    },
-
-    {
-        title: "Qualcomm",
-        description: "Associate Software Engineer",
-        applicationLink: "https://careers.qualcomm.com/careers",
-        category: "Full-time",
-        experience: "1 years",
-        logo: "https://static.vscdn.net/images/careers/demo/qualcomm/1686210880::Qualcomm-Logo.png"
-
-    },
+    
     // Add more job postings as needed
 ];
 
