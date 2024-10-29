@@ -38,16 +38,16 @@ let jobPostings = [
         logo: "https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png"
 
     },
-    
     {
-        title: "Qualcomm",
-        description: "Associate Software Engineer",
+        title: "Microsoft",
+        description: "Technical Program Manager",
         applicationLink: "https://careers.qualcomm.com/careers",
-        category: "Full-time",
-        experience: "1 years",
+        category: "Intern",
+        experience: "Fresher",
         logo: "https://static.vscdn.net/images/careers/demo/qualcomm/1686210880::Qualcomm-Logo.png"
 
     },
+   
     {
         title: "Amazon",
         description: "SDE Intern",
@@ -57,7 +57,15 @@ let jobPostings = [
         logo: "https://w7.pngwing.com/pngs/732/34/png-transparent-logo-amazon-com-brand-flipkart-others-text-orange-logo.png"
 
     },
-    
+    {
+        title: "Qualcomm",
+        description: "Associate Software Engineer",
+        applicationLink: "https://careers.qualcomm.com/careers",
+        category: "Full-time",
+        experience: "1 years",
+        logo: "https://static.vscdn.net/images/careers/demo/qualcomm/1686210880::Qualcomm-Logo.png"
+
+    },
     {
         title: "SAP Labs",
         description: "AI Developer Associate",
