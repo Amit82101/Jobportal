@@ -44,7 +44,7 @@ let jobPostings = [
         applicationLink: "https://careers.qualcomm.com/careers",
         category: "Intern",
         experience: "Fresher",
-        logo: "https://jobs.careers.microsoft.com/us/en/job/1779876/Technical-Program-Manager-Internship-Opportunities"
+        logo: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAkFBMVEX///+BvAYFpvD/ugjzUyUAo/D/twC92pR6uQD7z8bzThnyOADI4KiSxTv1eV2byVJSuPP/x1PB5PoAne//36j/wzuUz/f/2pT4qJjzSAv95N/4oI7i7s+62Y/H4KLyQwDyKACOwy/82ND0a0vT5riXx0iq0WrM6fs/s/L/5bf/xUf/0Gr/wTDb7/z+7s//36L62YWvAAAA5UlEQVR4nO3aV05CYQCE0WsFUaSJBRFQig1l/7vz4Y8ml9chQZLzLWByFjBVJWmvje6zHsvM+KkRNamhLqYPUbMyM2lmPddRrdOoyzJz1TyKakNBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUEdJmraipr9onb5Cnq5zpqXmcWyE7WqJP2HXrtZb2Xm/aMX9VlD9c+yBmXm5jxruIU6jvpDnURBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBHShqsJNX0CZ8Ba1rqK/bsDLzfZe1qSTttR9VofAdHuhbPwAAAABJRU5ErkJggg=="
 
     },
    
