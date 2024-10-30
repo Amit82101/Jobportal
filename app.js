@@ -32,7 +32,7 @@ let jobPostings = [
     {
         title: "Google",
         description: "Software Engineer",
-        applicationLink: "https://valorem.keka.com/careers/jobdetails/69890https://www.google.com/about/careers/applications/jobs/results/123826017989993158-software-engineer-university-graduate-2025",
+        applicationLink: "https://www.google.com/about/careers/applications/jobs/results/123826017989993158-software-engineer-university-graduate-2025",
         category: "Full-time",
         experience: "1 years",
         logo: "https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png"
